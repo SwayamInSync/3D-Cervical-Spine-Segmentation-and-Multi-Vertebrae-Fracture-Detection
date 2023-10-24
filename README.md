@@ -6,7 +6,7 @@ The cervical spine, composed of the uppermost seven vertebrae in the spinal colu
 
 To develop machine learning models that match the radiologists' performance in detecting and localizing fractures to the seven vertebrae that comprise the cervical spine and patient level.
 
-<img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1794509%2F2bccacfc06bc3537a15b5911d348e056%2FGray_111_-_Vertebral_column-coloured.png?generation=1659152307732067&alt=media" alt="img" style="zoom:50%;" />
+<img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1794509%2F2bccacfc06bc3537a15b5911d348e056%2FGray_111_-_Vertebral_column-coloured.png?generation=1659152307732067&alt=media" alt="img" height="400px" />
 
 ## Data
 
@@ -32,11 +32,11 @@ In addition, adding the predicted mask of corresponding vertebrae as the 6th cha
 
 ### Stage-1: Segmentation
 
-<img src="./assets/Stage-1.jpg" alt="Stage-1" style="zoom:12%;" />
+<img src="./assets/Stage-1.jpg" alt="Stage-1" width="500px" />
 
 ### Stage-2: Classification
 
-<img src="./assets/Stage-2.1.jpeg" alt="Stage-2.1" style="zoom:40%;" />
+<img src="./assets/Stage-2.1.jpeg" alt="Stage-2.1" width="500px" />
 
 ## Prediction
 
@@ -81,26 +81,7 @@ Trained model combining `Convnext` + `LSTM` which take the input along with segm
 
 - **Modified BCE loss:** 0.365
 
-- $$
-  \text{Modified BCE}(y, \hat{y}) = 
-  \begin{cases} 
-  2 \cdot \text{BCE}(y, \hat{y}) & \text{if } y > 0 \\
-  \text{BCE}(y, \hat{y}) & \text{otherwise}
-  \end{cases}
-  \
-  
-  \\
-  
-  \text{Normalization}(y) = 
-  \begin{cases} 
-  2 & \text{if } y > 0 \\
-  1 & \text{otherwise}
-  \end{cases}
-  
-  \\
-  
-   \text{Adjusted Average BCE} = \frac{\sum_{i} \text{Modified BCE}(y_i, \hat{y}_i)}{\sum_{i} \text{Normalization}(y_i)}
-  $$
+- <img src="">
 
   
 
