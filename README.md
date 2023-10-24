@@ -81,9 +81,11 @@ Trained model combining `Convnext` + `LSTM` which take the input along with segm
 
 - **Modified BCE loss:** 0.365
 
- <img src="https://raw.githubusercontent.com/SwayamInSync/3D-Cervical-Spine-Fracture-Segmentation-and-Classification/main/assets/CodeCogsEqn.png" style="background:white">
+ 	<img src="./assets/CodeCogsEqn.jpeg">
 
   
+
+
 
 ## **Acknowledgement**
 
