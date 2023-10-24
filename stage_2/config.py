@@ -22,11 +22,11 @@ class Config:
     p_mixup = 0.5
     p_rand_order_v1 = 0.2
 
-    data_dir = 'stage-2/data'
+    data_dir = 'stage_2/data'
     use_amp = True
     num_workers = multiprocessing.cpu_count()
     out_dim = 1
 
     n_epochs = 75
 
-    model_dir = './models'
+    model_dir = 'stage_2/models'

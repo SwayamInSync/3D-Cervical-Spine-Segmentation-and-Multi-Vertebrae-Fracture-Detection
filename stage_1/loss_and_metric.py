@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from config import Config
+from .config import Config
 
 
 def binary_dice_score(y_pred, y_true, threshold=None, nan_score_on_empty=False, eps=1e-7,):

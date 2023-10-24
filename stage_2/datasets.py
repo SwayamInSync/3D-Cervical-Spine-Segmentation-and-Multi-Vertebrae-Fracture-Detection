@@ -5,7 +5,7 @@ import random
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 
-from config import Config
+from .config import Config
 
 
 class CLSDataset(Dataset):

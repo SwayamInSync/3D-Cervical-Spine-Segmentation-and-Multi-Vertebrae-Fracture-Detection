@@ -1,6 +1,6 @@
 import torch
 import albumentations
-from config import Config
+from .config import Config
 
 # data augmentation
 transforms_train = albumentations.Compose([

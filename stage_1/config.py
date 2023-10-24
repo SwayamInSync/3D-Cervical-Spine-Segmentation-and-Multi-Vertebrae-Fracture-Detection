@@ -18,14 +18,14 @@ class Config:
     loss_weights = [1, 1]
     p_mixup = 0.1
 
-    data_dir = "stage-1/files/data"
+    data_dir = "stage_1/files/data"
     use_amp = True
     num_workers = multiprocessing.cpu_count()
     out_dim = 7
 
     n_epochs = 1000
 
-    model_dir = 'stage-1/files/models'
+    model_dir = 'stage_1/files/models'
 
 
 if __name__ == "__main__":

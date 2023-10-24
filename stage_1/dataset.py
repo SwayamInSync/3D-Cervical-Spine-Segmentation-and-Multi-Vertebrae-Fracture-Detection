@@ -6,7 +6,7 @@ import torch
 from torch.utils.data import Dataset
 import numpy as np
 
-from utils import load_sample
+from .utils import load_sample
 
 
 # dataset class

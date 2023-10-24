@@ -1,6 +1,5 @@
 import torch
 import random
-from config import Config
 from tqdm import tqdm
 from torch.cuda import amp
 import numpy as np
@@ -9,10 +8,11 @@ import wandb
 import os
 import gc
 
-from utils import mixup, get_device, convert_3d, transforms_train, transforms_valid
-from loss_and_metric import multilabel_dice_score, dice_loss
-from model import SegModel
-from dataset import SEGDataset, get_dataframe
+from .config import Config
+from .utils import mixup, get_device, convert_3d, transforms_train, transforms_valid
+from .loss_and_metric import multilabel_dice_score, dice_loss
+from .model import SegModel
+from .dataset import SEGDataset, get_dataframe
 
 
 def train_func(model, optimizer, train_loader, criterion, device, scaler=None):

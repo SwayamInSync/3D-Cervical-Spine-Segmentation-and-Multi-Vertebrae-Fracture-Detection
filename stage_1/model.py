@@ -1,7 +1,8 @@
 import timm
 import torch.nn as nn
-from config import Config
 import segmentation_models_pytorch as smp
+
+from .config import Config
 
 
 class SegModel(nn.Module):

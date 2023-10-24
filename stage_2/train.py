@@ -9,11 +9,11 @@ import os
 import gc
 import torch.optim as optim
 
-from config import Config
-from loss_and_metric import criterion
-from utils import mixup, get_device, transforms_train, transforms_valid
-from datasets import CLSDataset, get_dataframe
-from model import CLSModel
+from .config import Config
+from .loss_and_metric import criterion
+from .utils import mixup, get_device, transforms_train, transforms_valid
+from .datasets import CLSDataset, get_dataframe
+from .model import CLSModel
 
 
 def train_func(model, loader_train, optimizer, scaler=None):

@@ -1,5 +1,4 @@
 import monai.transforms as transforms
-from config import Config
 import pydicom
 import cv2 as cv
 from glob import glob
@@ -10,7 +9,8 @@ import torch
 from monai.transforms import Resize
 from timm.models.layers import Conv2dSame
 
-from conv_3d_same import Conv3dSame
+from .conv_3d_same import Conv3dSame
+from .config import Config
 
 # train and valid data transforms
 
