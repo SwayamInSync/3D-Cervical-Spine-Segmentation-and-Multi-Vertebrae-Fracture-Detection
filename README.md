@@ -2,10 +2,7 @@
 
 The cervical spine, composed of the uppermost seven vertebrae in the spinal column, plays a pivotal role in the human skeletal system. Injuries, especially fractures to this region, can lead to severe consequences, from chronic discomfort to paralysis. With radiologists traditionally analyzing CT scans for such fractures, there exists a demand for swifter and more precise diagnostic methods. This project, "**3D Cervical Spine Segmentation and Multi Vertebrae Fracture Detection**" harnesses machine learning to offer an efficient solution. It aims to automate the fracture detection and localization process, matching the expertise of radiologists, thereby streamlining diagnosis and promoting timely medical intervention.
 
-
-
-https://github.com/SwayamInSync/3D-Cervical-Spine-Segmentation-and-Multi-Vertebrae-Fracture-Detection/assets/74960567/e9bd8480-5442-4ef0-aac1-9ec1439e4c53
-
+https://github.com/SwayamInSync/3D-Cervical-Spine-Segmentation-and-Multi-Vertebrae-Fracture-Detection/assets/74960567/250a6b05-f484-4243-8612-e3270541e26b
 
 
 ## Objective
